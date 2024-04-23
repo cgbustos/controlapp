@@ -1,0 +1,22 @@
+html {
+    background-color: blue;
+    padding: 0;
+    margin: 10rem;
+}
+
+body {
+    background-color: yellow;
+    padding: 0;
+}
+
+table {
+    background-color: red;
+}
+
+.tabla-celeste{
+    background-color: lightblue;
+}
+
+#tabla-id{
+    background-color: chartreuse;
+}
