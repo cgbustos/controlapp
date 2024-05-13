@@ -84,13 +84,48 @@ truthy
     - cualquier numero distinto de 0
 */
 
-let edad_pedrito = 55;
-let edad_juan = 10;
+let edad_pedrito = 5;
+let edad_juan = "5";
+let comparador = edad_juan > edad_pedrito;
 
-if (edad_pedrito > edad_juan){
+if (comparador){
     console.log("Pedrito esta viejo")
 } else {
     console.log("Juan esta viejo")
 }
 
+// operadores de compracion
+/*
+> (mayor)
+>= (mayor o igual)
+< (menor o igual)
+<= (menor o igual)
+== (igual)
+
+propios de javascript
+=== (igual en valor y en tipo de dato) 3 === "3"
+<== (menor o igual en tipo de dato)
+>== (mayor o igual en tipo de dato)
+
+compracion logica
+&& false && true -> false
+|| false || true -> true
+
+*/
+
+if (edad_juan === edad_pedrito){
+    console.log("Hola jose")
+}
+
+
+// strings documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+// template_string
+let cadena_hola_largo = `
+<div>
+    <ul>
+        <li>Hola josema</li>
+    </ul>
+</div>
+`
+console.log(cadena_hola_largo)
 
