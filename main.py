@@ -1,4 +1,5 @@
 from pytube import YouTube
+import django
 
 video_url = input("Ingrese la url del video: ")
 only_audio = input("¿Desea descargar solo el audio? (y/n): ")
